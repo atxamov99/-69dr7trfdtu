@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Montserrat", serif;
+}
+.header{
+    width: 1273px;
+    height: 554px;
+    background-image: url(img1/Bg.png);
+}
+.nav{
+    width: 1273px;
+    height: 70px;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding-top: 21px;
+    padding-left: 26px;
+}
+.nav ul li{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28.6px;
+    color: white;
+}
+.container{
+    margin: 0 auto;
+}
+.vopros{
+    width: 241.87px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: grey;
+}
+.nav ul{
+    display: flex;
+    gap: 30px;
+}
+#m{
+    width: 165.49px;
+    height: 30px;
+    background-color: gainsboro;
+    color: black;
+}
+.h3{
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 45.76px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+.section{
+    width: 1273px;
+    height: 399px;
+    background-color: black;
+}
+.imgpapa{
+    display: flex;
+    justify-content: space-between;
+}
+.section2{
+    width: 1273px;
+    height: 928px;
+    background-color: dimgrey;
+}
+.rasm{
+    width: 740px;
+    height: 298px;
+    margin: 0 auto;
+    padding-top: 100px;
+    
+}
+.h2{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34.32px;
+    color: white;
+}
+.p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20.02px;
+    color: white;
+}
+.box{
+    display: flex;
+}
+.rasm2{
+    width: 740px;
+    height: 298px;
+    margin: 0 auto;
+    padding-top: 250px;
+    
+}
+.footer{
+    width: 1273px;
+    height: 70px;
+    background-color: dimgrey;
+    display: flex;
+    justify-content: space-between;
+}
+.footer ul li{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28.6px;
+    color: white;
+    padding-top: 15px;
+
+}
+.footer ul{
+    display: flex;
+    gap: 30px;
+}
